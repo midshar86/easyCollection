@@ -14,10 +14,10 @@
     "app:dist": "electron-builder"
   },
   "dependencies": {
-    "electron-win-state": "^1.1.22",
     "got": "^11.8.6",
     "image-type": "^4.1.0",
     "lodash": "^4.17.21",
+    "electron-win-state": "^1.1.22",
     "normalize.css": "^8.0.1",
     "pinia": "^2.2.2",
     "sass": "^1.79.3",
@@ -27,6 +27,7 @@
     "vue-waterfall-plugin-next": "^2.6.0"
   },
   "devDependencies": {
+    "electron-builder": "^25.1.7",
     "@rushstack/eslint-patch": "^1.8.0",
     "@vitejs/plugin-vue": "^5.0.5",
     "@vue/eslint-config-prettier": "^9.0.0",
@@ -34,8 +35,6 @@
     "eslint": "^8.57.0",
     "eslint-plugin-vue": "^9.23.0",
     "prettier": "^3.2.5",
-    "vite": "^5.3.1",
-    "electron-builder": "^25.1.7",
-    "electron-builder-squirrel-windows": "^25.1.7"
+    "vite": "^5.4.8"
   }
 }
