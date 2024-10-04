@@ -1,0 +1,23 @@
+{
+  "id": "4699833",
+  "name": "electron",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "41858611",
+      "name": "1_照片",
+      "font_class": "a-1_zhaopian",
+      "unicode": "e655",
+      "unicode_decimal": 58965
+    },
+    {
+      "icon_id": "41934527",
+      "name": "1_首页",
+      "font_class": "a-1_shouye",
+      "unicode": "e656",
+      "unicode_decimal": 58966
+    }
+  ]
+}

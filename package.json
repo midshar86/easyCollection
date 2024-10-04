@@ -1,0 +1,41 @@
+{
+  "name": "savehtml",
+  "version": "0.0.0",
+  "private": true,
+  "main": "main.cjs",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "format": "prettier --write src/",
+    "starts": "nodemon --exec electron . --watch ./ --ext .css,.cjs,.js,.html,.vue",
+    "app:dir": "electron-builder --dir",
+    "app:dist": "electron-builder"
+  },
+  "dependencies": {
+    "electron-win-state": "^1.1.22",
+    "got": "^11.8.6",
+    "image-type": "^4.1.0",
+    "lodash": "^4.17.21",
+    "normalize.css": "^8.0.1",
+    "pinia": "^2.2.2",
+    "sass": "^1.79.3",
+    "store2": "^2.14.3",
+    "vue": "^3.4.29",
+    "vue-router": "^4.4.5",
+    "vue-waterfall-plugin-next": "^2.6.0"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.8.0",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "@vue/eslint-config-prettier": "^9.0.0",
+    "electron": "^32.1.2",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.23.0",
+    "prettier": "^3.2.5",
+    "vite": "^5.3.1",
+    "electron-builder": "^25.1.7",
+    "electron-builder-squirrel-windows": "^25.1.7"
+  }
+}
